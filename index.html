@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Anne — Clinical Informaticist | Portfolio</title>
+  <meta name="description" content="Portfolio of Anne, a Clinical Informaticist specializing in national terminology standards (SNOMED CT, ICD) and clinical systems." />
+  <link rel="preload" href="style.css" as="style" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <!-- Skip link for keyboard users -->
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a class="brand" href="#hero" aria-label="Go to home">
+        <span class="brand-mark" aria-hidden="true">◎</span>
+        <span class="brand-text">Anne</span>
+      </a>
+
+      <nav class="site-nav" aria-label="Primary">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation">☰</button>
+        <ul id="nav-menu" class="nav-menu">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#resume">Résumé</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- INTRO -->
+    <section id="hero" class="section hero" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <h1 id="hero-title">Clinical Informatics Specialist</h1>
+          <p class="lead">
+            I support and maintain healthcare terminology standards (SNOMED CT, ICD) for EMR/CMS ecosystems.
+            My work aligns clinical reality with computable data—so clinicians see less chaos and patients get safer care.
+          </p>
+          <div class="hero-cta">
+            <a class="btn" href="#projects">See my work</a>
+            <a class="btn btn-outline" href="#contact">Get in touch</a>
+          </div>
+        </div>
+
+        <figure class="hero-media">
+          <img
+            src="assets/pic.jpg"
+            alt="Portrait of Anne, Clinical Informaticist"
+            width="350" height="350" loading="lazy" />
+          <figcaption class="visually-hidden">Anne — Clinical Informaticist</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- RÉSUMÉ -->
+    <section id="resume" class="section" aria-labelledby="resume-title">
+      <div class="container">
+        <h2 id="resume-title">Résumé</h2>
+        <p class="section-intro">
+          Selected highlights. Full CV available on request. You can also see
+          <a href="#projects">project snippets</a> below or jump to
+          <a href="#contact">contact</a>.
+        </p>
+
+        <div class="resume-grid">
+          <article class="resume-card" aria-labelledby="exp-title">
+            <h3 id="exp-title">Experience</h3>
+            <ul class="timeline">
+              <li>
+                <h4>Synapxe</h4>
+                <p class="muted">2017–Present · Singapore</p>
+                <p>Implement clinical IT programs and drive adoption of standards (SNOMED CT); guide stakeholders on governance, policies, and processes to improve quality and reduce safety risks across clinical systems.       
+                </li>
+              <li>
+                <h4>Altegra Health (Change healthcare)</h4>
+                <p class="muted">2014–2017 . Philippines</p>
+                <p>Review medical records for accurate diagnostic coding, study abstraction, and HEDIS; assign ICD-10-CM codes/modifiers in compliance with CMS and NCQA (hybrid reviews).</p>
+              </li>
+            </ul>
+          </article>
+
+          <article class="resume-card" aria-labelledby="edu-title">
+            <h3 id="edu-title">Education</h3>
+            <ul>
+              <li>
+                <h4>Bachelor of Science in Nursing</h4>
+                <p class="muted">University of La Salette - 2008 <br/>
+                    Academic Awardee (88%)
+                </p>
+              </li>
+              <li>
+                <h4>Nursing Board Exam</h4>
+                <p class="muted"> Professional Regulatory Commision - 2008<br/>
+                    Board Rating (85.8%) </p>
+              </li>
+            </ul>
+          </article>
+
+          <article class="resume-card" aria-labelledby="skills-title">
+            <h3 id="skills-title">Skills</h3>
+            <ul class="skills">
+              <li>SNOMED</li>
+              <li>ICD</li>
+              <li>HL7</li>
+              <li>Microsoft Office</li>
+              <li>SQL · Python · Full Stack</li>
+              
+            </ul>
+          </article>
+
+         
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section alt" aria-labelledby="projects-title">
+      <div class="container">
+        <h2 id="projects-title">Projects</h2>
+
+        <div class="cards">
+          <article class="card">
+            <img src="assets/technology.png" alt="Diagram of a value set governance workflow from request to release" width="640" height="360" loading="lazy" />
+            <div class="card-body">
+              <h3>Standards Maintenance</h3>
+              <p>Provide annual support for SNOMED CT supplementary product updates, including processing user code requests.<br/>
+              </p> 
+              <ul class="tags">
+               
+              </ul>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="assets/biomedical.png" alt="Screenshot of a dashboard showing ICD mapping coverage and data quality metrics" width="640" height="360" loading="lazy" />
+            <div class="card-body">
+              <h3>System Integration Testing - TCER</h3>
+              <p>Review TCERs for diagnosis datatypes during the onboarding of new contributors to the PHealthRecord system, ensuring data accuracy and compliance with standards.</p>
+              <ul class="tags">
+                
+              </ul>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="assets/medical-services.png" alt="Illustration of a FHIR terminology service architecture with EMR integration" width="640" height="360" loading="lazy" />
+            <div class="card-body">
+              <h3>AI Chatbot — Terminology & Mapping</h3>
+              <p>Validated and tuned a chatbot for Terminology Standards FAQs and SNOMED→ICD mapping to improve accuracy.</p>
+              <ul class="tags">
+               
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section" aria-labelledby="about-title">
+      <div class="container about-grid">
+        <div>
+          <h2 id="about-title">About Me</h2>
+          <p>I translate clinical chaos into computable calm—grounded in SNOMED CT/ICD governance and pragmatic, SQL-driven checks. My happy place is where clinicians, standards, and systems finally agree.</p>
+      <p>Off duty: long walks, good books, and documentaries about crime, fraud, and the kind of history that comes with plot twists.</p>
+    
+        </div>
+        <figure class="about-media">
+          <img src="assets/about me.jpg" alt="Sticky notes and a whiteboard with clinical codes and mappings sketched out" width="640" height="480" loading="lazy" />
+        </figure>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section alt" aria-labelledby="contact-title">
+      <div class="container">
+        <h2 id="contact-title">Contact</h2>
+        <p class="section-intro">Questions, collaborations, or a burning need to debate precoordinated vs postcoordinated concepts? I’m in.</p>
+
+        <div class="contact-grid">
+          <div class="contact-card">
+            <h3>Email</h3>
+            <p><a href="mailto:anne11882255@gmail.com">anne@anne11882255@gmail.com.com</a></p>
+          </div>
+
+          <div class="contact-card">
+            <h3>LinkedIn</h3>
+            <p><a href="https://www.linkedin.com/" target="_blank" rel="noopener">linkedin.com/in/anne</a></p>
+          </div>
+
+          <form class="contact-form" aria-labelledby="form-title" action="https://example.com/form-endpoint" method="post">
+            <h3 id="form-title">Send a Message</h3>
+
+            <label for="name">Name</label>
+            <input id="name" name="name" autocomplete="name" required />
+
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" required />
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button class="btn" type="submit">Submit</button>
+            <p class="form-note">This is a demo form; replace the <code>action</code> URL with your endpoint or use a mailto link.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Anne — Clinical Informaticist. All rights reserved.</p>
+      <a href="#hero" class="back-to-top" aria-label="Back to top">↑ Back to top</a>
+    </div>
+  </footer>
+
+  <script>
+    // Small progressive enhancement: year + accessible mobile nav
+    document.getElementById('year').textContent = new Date().getFullYear();
+    const toggle = document.querySelector('.nav-toggle');
+    const menu = document.getElementById('nav-menu');
+    if (toggle) {
+      toggle.addEventListener('click', () => {
+        const expanded = toggle.getAttribute('aria-expanded') === 'true';
+        toggle.setAttribute('aria-expanded', String(!expanded));
+        menu.classList.toggle('open');
+      });
+    }
+  </script>
+</body>
+</html>
